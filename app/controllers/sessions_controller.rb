@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
      redirect_to root_path
    elsif params[:name] && !params[:name].empty?
      session[:name] = params[:name]
-     redirect_to root_path
+     redirect_to '/'
    else
      redirect_to login_path
    end
