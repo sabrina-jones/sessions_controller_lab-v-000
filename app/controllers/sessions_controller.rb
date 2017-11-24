@@ -2,9 +2,9 @@ class SessionsController < ApplicationController
   def new
   end
 
-  def create 
+  def create
 
-  end 
+  end
 
   def destroy
    session.delete :name
